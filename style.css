@@ -1,9 +1,13 @@
-#h1 {position:absolute; left:33%}
+.name {color: white; position: relative; right: -10%;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', }
 
+.top {background-color: #333; overflow: hidden;}
 
-#hoff_style {position:absolute; 
-            left: 475px;
-            top:120px
+#body {background-color: beige;}
+
+#head_shot {position:absolute; 
+            right:25px;
+            top: 25px;
         
         
         }
