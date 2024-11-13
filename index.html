@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <title>Alternative Bio</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script
+  src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
+  defer
+></script>
   
 </head>
 
@@ -17,17 +20,14 @@
 <body id='body'  >
  
   <img id= head_shot src='assets/20210727_193907_d.jpg' width="400" alt="headshot" >
-    <div
-      class="cf-turnstile"
-      data-sitekey="0x4AAAAAAAz93OMmwrC3gdAc"
-      data-callback="javascriptCallback"
-      >
-      Ipsem Lorem
-    </div>
+
   <p id="p1">
  
   </p>
+
+  <div id="myWidget"> </div>
   
+
 </body>
 
 </html>
