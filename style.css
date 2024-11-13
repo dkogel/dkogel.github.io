@@ -13,3 +13,13 @@
         }
 
 #p1 {position: absolute; top: 420px; background-color: aquamarine;}
+
+.container{
+     display: none;
+     align-items: center;
+     justify-content: center;
+     width: 90vw;
+     height:85vh;
+     background-color: white;
+     flex-direction: row;
+}
