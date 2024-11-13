@@ -5,7 +5,7 @@ window.onloadTurnstileCallback = function () {
       console.log(`Challenge Success ${token}`);
       setTimeout(()  {
         document.querySelector(".container").style.display = "flex";
-        docucment.getELementbyID("myWidget").style.display = "none";
+        document.getELementbyID("myWidget").style.display = "none";
       }, 2000);
     },
   });
