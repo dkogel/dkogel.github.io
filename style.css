@@ -15,7 +15,7 @@
 #p1 {position: absolute; top: 420px; background-color: aquamarine;}
 
 .container{
-     display: none;
+     display: flex;
      align-items: center;
      justify-content: center;
      width: 90vw;
